@@ -1,0 +1,32 @@
+:root{
+    background-color:rgb(145, 145, 245);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: aliceblue;
+}
+#meteo_container{
+    display:grid;
+    grid-template: repeat(8,1fr)/repeat(8,1fr);
+}
+#title_container{
+    display: flex;
+    flex-direction: inline;
+}
+#title{
+    flex:auto;
+}
+
+#example{
+    border:1px solid aliceblue;
+    padding: 1%;
+    margin:1%;
+    flex:auto;
+}
+#date{
+    border:1px solid aliceblue;
+    padding: 5%;
+}
+#date:hover{
+    filter:brightness(85%);
+    background-color: rgb(76, 76, 223);
+    transform: scale(1.05);
+}
