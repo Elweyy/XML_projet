@@ -1,0 +1,53 @@
+body{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.heure{
+    cursor:pointer;
+    text-align:center;
+    border: 1px ridge grey;       
+}
+.heure:active{
+    background:grey;
+}
+
+.heure:hover{
+    background:lightgrey;
+}
+
+.active{
+    background:lightgrey;
+}
+
+.info{
+    display:none;  
+}
+.meteo_container{
+    display: inline-flex;
+    align-self:center;
+}
+#mapid{
+    align-self:center;
+}
+
+#marker-user{
+    filter: hue-rotate(161deg);
+}
+.container{
+    padding: 0em 1em;
+    width: 150px;
+}
+
+.info:nth-child(n){    
+    justify-content: space-evenly;
+}
+.jour{
+    text-align: center;
+}
+
+.info_heure{
+    display:flex;
+    flex-direction: column;
+}
